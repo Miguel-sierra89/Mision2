@@ -9,7 +9,7 @@ def get_connection():
         host="127.0.0.1",
         user="root", # Tu usuario de MySQL
         password="Metallica89.", # Tu contraseña
-        database="climate_energy_db"
+        database="climate_energy_db",
         port=3306
     )
 
