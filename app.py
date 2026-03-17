@@ -6,10 +6,11 @@ import plotly.express as px
 # Configuración de conexión
 def get_connection():
     return mysql.connector.connect(
-        host="localhost",
+        host="127.0.0.1",
         user="root", # Tu usuario de MySQL
         password="Metallica89.", # Tu contraseña
         database="climate_energy_db"
+        port=3306
     )
 
 st.set_page_config(page_title="EcoData Dashboard", layout="wide")
